@@ -27,4 +27,7 @@ public class Item {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
+    public double getimporteItem(){
+        return this.cantidad * this.product.getPrecio();
+    }
 }

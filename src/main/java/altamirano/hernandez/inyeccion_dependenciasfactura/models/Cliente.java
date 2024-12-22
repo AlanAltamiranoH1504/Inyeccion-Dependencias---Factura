@@ -6,9 +6,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Cliente {
     //Atributos
-    @Value("${config.factura.username}")
+    @Value("${config.Cliente.username}")
     private String name;
-    @Value("${config.factura.lastname}")
+    @Value("${config.Cliente.lastname}")
     private String lastname;
 
     //Constrcutores
